@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Video Background using HTML and CSS">
+  <meta name="author" content="Matt Riley">
+  <!-- Link to Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <title>Video Background</title>
+</head>
+<body>
+  <section id="main">
+    <div id="video-container">
+      <!-- Autoplay starts the video. Loop causes the video to continuously loop through the video. Muted removes any sound/audio from the video. -->
+      <video src="html.mp4" autoplay loop muted></video>
+    </div>
+    <!-- Div to cover/darken video -->
+    <div id="cover"></div>
+    <div id="content">
+      <h1>Matthew Riley</h1>
+      <h2>Web Developer</h2>
+      <!-- Setting the href value to an id will take the user to the element with that id on the webpage -->
+      <a href="#about" id="click">About</a>
+    </div>
+  </section>
+
+  <section id="about">
+    <h1>About</h1>
+    <p>Currently Enrolled in the Commonwealth Coders Web Development Program</p>
+    <h2>Follow me on social media</h2>
+    <div>
+      <a href="https://twitter.com/MattJRiley14">
+        <i class="fab fa-twitter"></i>
+      </a>
+      <a href="https://www.facebook.com/MattJRiley14/">
+        <i class="fab fa-facebook"></i>
+      </a>
+      <a href="https://github.com/MattJRiley14">
+        <i class="fab fa-github"></i>
+      </a>
+      <a href="https://www.linkedin.com/in/mattjriley14/">
+        <i class="fab fa-linkedin"></i>
+      </a>
+    </div>
+  </section>
+</body>
+</html>
